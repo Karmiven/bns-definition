@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table name="surveyquestions" version="0.1" module="4">
+<table name="surveyquestions" version="0.1" module="4" pattern="SurveyQuestions*.x16">
 	<el name="table" child="surveyquestion" />
 	<el name="surveyquestion" child="question,questionexample">
 		<attribute name="alias" type="String" required="True" max="70" />

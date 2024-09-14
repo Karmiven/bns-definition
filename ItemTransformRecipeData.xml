@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table name="itemtransformrecipe" version="4.1" module="262">
+<table name="itemtransformrecipe" version="4.2" module="262">
 	<el name="table" child="record" />
 	<el name="record" child="">
 		<attribute name="alias" type="String" required="True" max="70" />
@@ -194,6 +194,7 @@
 		<attribute name="random-item-total-count" type="Int8" default="0" max="10" />
 		<attribute name="random-item-select-prop-weight" type="Int16" repeat="10" default="0" max="1000" />
 		<attribute name="random-failure-mileage-save" type="Bool" default="n" />
+		<attribute name="random-failure-mileage-distribution-type" type="Ref" ref="random-distribution" refel="1" />
 		<attribute name="random-failure-mileage-influence-recipe" type="Ref" repeat="2" ref="itemtransformrecipe" refel="1" />
 		<attribute name="random-retry-cost" type="Ref" ref="item-transform-retry-cost" refel="1" />
 		<attribute name="main-ingredient-weapon-gem-type" type="Seq" default="none">

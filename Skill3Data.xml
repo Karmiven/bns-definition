@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table name="skill3" version="10.4" module="2318" maxid="200000000">
+<table name="skill3" version="10.5" module="2318" maxid="200000000">
 	<el name="table" child="record" />
 	<el name="record" child="">
 		<attribute name="id" type="Int32" key="True" required="True" min="1" max="200000000" />
@@ -699,7 +699,7 @@
 		<attribute name="sub-info-diff" type="Ref" ref="text" refel="1" />
 		<attribute name="main-tooltip-1" type="Ref" repeat="5" ref="skilltooltip" refel="1" hidden="True" />
 		<attribute name="main-tooltip-2" type="Ref" repeat="5" ref="skilltooltip" refel="1" hidden="True" />
-		<attribute name="sub-tooltip" type="Ref" repeat="10" ref="skilltooltip" refel="1" hidden="True" />
+		<attribute name="sub-tooltip" type="Ref" repeat="15" ref="skilltooltip" refel="1" hidden="True" />
 		<attribute name="stance-tooltip" type="Ref" repeat="5" ref="skilltooltip" refel="1" hidden="True" />
 		<attribute name="condition-tooltip" type="Ref" repeat="5" ref="skilltooltip" refel="1" hidden="True" />
 		<attribute name="ui-combo" type="Ref" ref="skill-combo-2" refel="1" />
